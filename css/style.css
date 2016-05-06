@@ -1,21 +1,23 @@
 /**
  * Place your custom styles here.
  */
-#panels-ipe-content > div .panel-panel {
+.panel-panel {
   padding-left: 10px;
   padding-right: 10px; }
-  #panels-ipe-content > div .panel-panel.panel-full-width {
+  .panel-panel.panel-full-width {
     padding-left: 0;
     padding-right: 0; }
-#panels-ipe-content .panel-3col-33 .panel-panel:first-child,
-#panels-ipe-content .panel-3col .panel-panel:first-child,
-#panels-ipe-content .panel-2col .panel-panel:first-child {
+
+.panel-3col-33 .panel-panel:first-child,
+.panel-3col .panel-panel:first-child,
+.panel-2col .panel-panel:first-child {
   padding-left: 0; }
-#panels-ipe-content .panel-3col-33 .panel-panel:last-child,
-#panels-ipe-content .panel-3col .panel-panel:last-child,
-#panels-ipe-content .panel-2col .panel-panel:last-child {
+.panel-3col-33 .panel-panel:last-child,
+.panel-3col .panel-panel:last-child,
+.panel-2col .panel-panel:last-child {
   padding-right: 0; }
-#panels-ipe-content .panel-1col .panel-panel {
+
+.panel-1col .panel-panel {
   padding-left: 0;
   padding-right: 0; }
 
