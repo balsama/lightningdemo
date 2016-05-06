@@ -1,0 +1,35 @@
+/**
+ * Place your custom styles here.
+ */
+#panels-ipe-content {
+  // I hate to use an ID here, but IPE doesn't give us anything else to target
+  > div {
+    .panel-panel {
+      padding-left: 10px;
+      padding-right: 10px;
+      &.panel-full-width {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+  .panel-3col-33,
+  .panel-3col,
+  .panel-2col {
+    // Try to make at least some of the layout loog good
+    .panel-panel {
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+  .panel-1col {
+    .panel-panel {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

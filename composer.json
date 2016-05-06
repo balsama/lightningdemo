@@ -1,0 +1,6 @@
+{
+    "name": "balsama/lightningdemo",
+    "description": "Bootstrap subtheme with various tweaks to make lightning components more demo-able.",
+    "type": "drupal-theme",
+    "license": "GPL-2.0+"
+}
